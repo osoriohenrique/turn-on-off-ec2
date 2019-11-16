@@ -39,7 +39,7 @@ $ cd turn-on-off-ec2
 Zip all the files:
 
 ```
-zip * lambda.zip
+zip lambda.zip *
 ```
 
 Go to your AWS console and create a new lambda function using python 3.7, and insert in it the policy above. Create a trigger that will fit the times you want to stop and start the ec2.
