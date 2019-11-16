@@ -57,5 +57,3 @@ def stop_instances():
 def lambda_handler(event, context):
     start_instances()
     stop_instances()
-
-lambda_handler(1,1)
