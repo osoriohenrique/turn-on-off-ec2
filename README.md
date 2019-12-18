@@ -45,7 +45,7 @@ zip lambda.zip *
 Go to your AWS console and create a new lambda function using python 3.7, and insert in it the policy above. Create a trigger that will fit the times you want to stop and start the ec2.
 
 
-In the ec2 create two new tags with keys TURNON and TURNOFF, their values will be the time where the ec2 will be started and stoped respectively.
+In the ec2 create two new tags with keys TURNON and TURNOFF, their values will be the time where the ec2 will be started and stoped respectively. Example of value: **22:15**
 
 
 ## License
